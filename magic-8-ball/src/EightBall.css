@@ -1,0 +1,23 @@
+.EightBall{
+    align-items: center;
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+}
+
+
+.EightBall:hover{
+    scale: 1.05;
+}
+
+.EightBall-message{
+ color: white;
+ text-align: center;
+ white-space: nowrap;
+ font-size: 20px;
+}
